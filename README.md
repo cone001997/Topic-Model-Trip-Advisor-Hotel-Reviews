@@ -10,21 +10,27 @@
 
 `conda deactivate`
 
-**To install libraries**
-## core
+## To install libraries
+
+**Core**
+
 `conda install numpy pandas scikit-learn matplotlib seaborn joblib notebook -y`
 
-## NLP
+**NLP**
+
 `conda install nltk -y`
 `conda install -c conda-forge spacy -y`
 `python -m spacy download en_core_web_sm`
 
-## topic modeling
+**Topic modeling**
+
 `conda install -c conda-forge gensim -y`
 `conda install -c conda-forge pyldavis -y`
 
-## dimensionality reduction
+**Dimensionality reduction**
+
 `conda install -c conda-forge umap-learn -y`
 
-## visuals
+**Visuals**
+
 `conda install -c conda-forge wordcloud -y`
